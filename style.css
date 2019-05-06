@@ -113,7 +113,15 @@ body {
   left: -75px;
    }
 
-
+.skyscraper .wall-one div{
+  position: absolute;
+  display: block;
+  background-color: black;
+  opacity: 0.2;
+  width: 60px;
+  height: 2px;
+  top: 10px;
+  left: 0px;
    
 
 
