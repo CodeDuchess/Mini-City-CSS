@@ -52,7 +52,57 @@ body {
   transform: skewY(45deg);
     }
 
+.ground div:nth-child(4){
+   position: absolute;
+   display: block;
+   background-color: #d5cfba;
+   width: 200px;
+   height: 10px;
+   top: 200px;
+   right: -5px;
+   z-index: -998;
+   transform: skewX(45deg);
+    }
 
+.road {
+   position: absolute;
+   display: block;
+   background-color: #989899;
+   width: 40px;
+   height: 200px;
+   transform: rotateZ(45deg);
+   top: 0px;
+   left: 80px;
+   z-index: -998;
+    }
+  
+.road:after {
+  position: absolute;
+  display: block;
+  content:'';
+  background-color: #989899;
+  width: 30px;
+  height: 200px;
+  transform: rotateZ(90deg);
+  top: -15px;
+  left: 5px;
+  z-index:-998;
+   }
+
+/* Skyscraper */
+.skyscraper {
+  position: absolute;
+  display: block;
+  background-color: transparent;
+  width: 60px;
+  height: 80px;
+  transform: rotateX(45deg);
+  top: 53px;
+  left: -10px;
+  z-index: 999;
+   }
+
+   
 
 
 
