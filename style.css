@@ -108,7 +108,7 @@ body {
   background-color: #7da1bf;
   width: 60px;
   height: 150px;
-  transform: skewX(45deg);
+  transform: skew(45deg);
   top: -70px;
   left: -75px;
    }
