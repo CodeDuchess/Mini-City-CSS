@@ -139,7 +139,7 @@ body {
               0 130px 0 0 black;
      }
 
-.highscraper .wall-two{
+.skyscraper .wall-two{
   position: absolute;
   display: block;
   background-color: #6389a8;
@@ -149,7 +149,7 @@ body {
   top: -75px;
   left: -90px;
 }
-.highscraper .wall-two div{
+.skyscraper .wall-two div{
   position: absolute;
   display: block;
   background-color: black;
@@ -174,7 +174,7 @@ body {
               120px 0 0 0 black,
               130px 0 0 0 black;
 }
-.highscraper .roof{
+.skyscraper .roof{
   position: absolute;
   display: block;
   background-color: #444;
@@ -185,8 +185,8 @@ body {
   
   box-shadow: inset 0 0 0 4px #313131;
 }
-/*---------------- one -----------------------------*/
-.highscraper .roof>div:nth-child(1){
+/* one */
+.skyscraper .roof>div:nth-child(1){
   position: absolute;
   display: block;
   background-color: #494949;
@@ -195,7 +195,7 @@ body {
   top: 50px;
   left: 35px;
 }
-.highscraper .roof>div:nth-child(1) div:nth-child(1){
+.skyscraper .roof>div:nth-child(1) div:nth-child(1){
   position: absolute;
   display: block;
   background-color: #323232;
@@ -205,7 +205,7 @@ body {
   left: 10px;
   transform: skewY(45deg);
 }
-.highscraper .roof>div:nth-child(1) div:nth-child(2){
+.skyscraper .roof>div:nth-child(1) div:nth-child(2){
   position: absolute;
   display: block;
   background-color: #555;
@@ -215,8 +215,8 @@ body {
   left: 1px;
   transform: skewX(45deg);
 }
-/*------------------- two --------------------------*/
-.highscraper .roof>div:nth-child(2){
+/* two */
+.skyscraper .roof>div:nth-child(2){
   position: absolute;
   display: block;
   background-color: #494949;
@@ -225,7 +225,7 @@ body {
   top: 20px;
   left: 20px;
 }
-.highscraper .roof>div:nth-child(2) div:nth-child(1){
+.skyscraper .roof>div:nth-child(2) div:nth-child(1){
   position: absolute;
   display: block;
   background-color: #323232;
@@ -235,7 +235,7 @@ body {
   left: 15px;
   transform: skewY(45deg);
 }
-.highscraper .roof>div:nth-child(2) div:nth-child(2){
+.skyscraper .roof>div:nth-child(2) div:nth-child(2){
   position: absolute;
   display: block;
   background-color: #555;
@@ -246,7 +246,7 @@ body {
   transform: skewX(45deg);
 }
 /* three tall and thin */
-.highscraper .roof>div:nth-child(3){
+.skyscraper .roof>div:nth-child(3){
   position: absolute;
   display: block;
   background-color: #333;
@@ -361,7 +361,7 @@ body {
   
   box-shadow: inset 0 0 0 3px #313131;
 }
-/*---------------- one -----------------------------*/
+/* one */
 .brickhouse .roof>div:nth-child(1){
   position: absolute;
   display: block;
@@ -391,7 +391,7 @@ body {
   left: 1px;
   transform: skewX(45deg);
 }
-/*------------------- two --------------------------*/
+/* two */
 .brickhouse .roof>div:nth-child(2){
   position: absolute;
   display: block;
@@ -421,9 +421,6 @@ body {
   left: 3px;
   transform: skewX(45deg);
 }
-/************************************************************/
-/************************************************************/
-/************************************************************/
 
 .ground-cropped{
   position: absolute;
@@ -457,8 +454,6 @@ body {
   top: 26px;
   left: 0px;
 }
-
-
 
 .leaves{
   position: absolute;
